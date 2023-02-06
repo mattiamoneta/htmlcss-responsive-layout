@@ -8,83 +8,94 @@
     <link rel="stylesheet" href="./css/master.css">
 
     <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
     <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Layout Responsive</title>
 </head>
     <body>
-
         <!-- 
             NAVBAR
          -->
-         <header class="debug">
-            <div class="navbar py-xs">
+         <header>
+            <div class="navbar py-sm bg-primary">
                 <div class="container">
-                    <div class="navbar-logo">LOGO</div>
-                    <div class="nav-toggle">HAMBURGER</div>
+                    <div class="navbar-logo">
+                        <img src="./img/logo.png" alt="Navbar Logo">
+                    </div>
+                    <div class="nav-toggle">
+                        <a href="#" class="text-light"><i class="fa-solid fa-bars"></i></a>
+                    </div>
                     <div class="collapse">
                         <nav class="navbar-nav">
                             <ul>
-                                <li><a href="#">LINK</a></li>
-                                <li><a href="#">LINK</a></li>
-                                <li><a href="#">LINK</a></li>
-                                <li><a href="#">LINK</a></li>
-                                <li><a href="#">BUTTON</a></li>
+                                <li><a href="#" class="text-light nav-link">Planning</a></li>
+                                <li><a href="#" class="text-light nav-link">Testimonials</a></li>
+                                <li><a href="#" class="text-light nav-link">Features</a></li>
+                                <li><a href="#" class="text-light nav-link">About Us</a></li>
+                                <li><a href="#" class="btn btn-light">Get Started</a></li>
                             </ul>
                         </nav>    
                     </div>
                 </div>
             </div>
          </header>
-       
+
+        <main class="navbar-fix">
+
         <!-- 
             HERO SECTION
          -->
-         <section id="hero-section" class="debug py-lg">
+         <section id="hero-section" class="py-lg">
             <div class="container">
                 <div class="row row-wrap gridfix-sm">
 
                     <div class="col-8 p-xs">
-                        <div class="card row p-sm radius-sm">
-                            <div class="col-6">
-                                <h3>Lorem Ipsum</h3>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, dicta.</p>
+                        <div class="card row radius-sm bg-secondary h-100">
+                            <div class="col-6 p-md">
+                                <h3 class="text-primary">Get a demo application</h3>
+                                <p class="py-md font-bold text-grey">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia tempore, dolorem quis quos odio quaerat sapiente in veniam autem vel.</p>
+                                <a href="#" class="btn btn-primary">Get Started</a>
                             </div>
-                            <div class="col-6 text-center">
-                                <div>IMMAGINE</div>
+                            <div class="col-6 text-center h-100 position-relative">
+                                <img src="./img/phone.png" alt="Phone" class="mw-70" id="phone">
                             </div>
                         </div>
                     </div>
 
                     <div class="col-4 p-xs text-center">
-                        <div class="card p-sm radius-sm">
-                            <div>IMMAGINE</div>
-                            <h3>Lorem Ipsum</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur amet omnis fuga beatae dolore atque, accusamus repudiandae animi adipisci praesentium?</p>
+                        <div class="card p-md radius-sm bg-secondary h-100">
+                            <i class="fa-solid fa-file-code icon-lg my-md text-primary"></i>
+                            <h3 class="text-primary py-sm">Clean Code</h3>
+                            <p class="font-bold text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur amet omnis fuga beatae dolore atque, accusamus repudiandae animi adipisci praesentium?</p>
                         </div>
                     </div>
 
                     <div class="col-4 p-xs text-center">
-                        <div class="card p-sm radius-sm">
-                            <div>IMMAGINE</div>
-                            <h3>Lorem Ipsum</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur amet omnis fuga beatae dolore atque, accusamus repudiandae animi adipisci praesentium?</p>
+                        <div class="card p-md radius-sm bg-secondary">
+                            <i class="fa-solid fa-compass-drafting icon-lg my-md text-primary"></i>
+                            <h3 class="text-primary py-sm">Web Design</h3>
+                            <p class="font-bold text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur amet omnis fuga beatae dolore atque, accusamus repudiandae animi adipisci praesentium?</p>
                         </div>
                     </div>
 
                     <div class="col-4 p-xs text-center">
-                        <div class="card p-sm radius-sm">
-                            <div>IMMAGINE</div>
-                            <h3>Lorem Ipsum</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur amet omnis fuga beatae dolore atque, accusamus repudiandae animi adipisci praesentium?</p>
+                        <div class="card p-md radius-sm bg-secondary">
+                            <i class="fa-solid fa-laptop-code icon-lg my-md text-primary"></i>
+                            <h3 class="text-primary py-sm">Development</h3>
+                            <p class="font-bold text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur amet omnis fuga beatae dolore atque, accusamus repudiandae animi adipisci praesentium?</p>
                         </div>
                     </div>
 
                     <div class="col-4 p-xs text-center">
-                        <div class="card p-sm radius-sm">
-                            <div>IMMAGINE</div>
-                            <h3>Lorem Ipsum</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur amet omnis fuga beatae dolore atque, accusamus repudiandae animi adipisci praesentium?</p>
+                        <div class="card p-md radius-sm bg-secondary">
+                            <i class="fa-solid fa-bullhorn icon-lg my-md text-primary"></i>
+                            <h3 class="text-primary py-sm">Branding</h3>
+                            <p class="font-bold text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur amet omnis fuga beatae dolore atque, accusamus repudiandae animi adipisci praesentium?</p>
                         </div>
                     </div>
 
@@ -255,6 +266,7 @@
             </div>
           </section>
 
+        </main>
           <!-- 
             FOOTER
            -->
