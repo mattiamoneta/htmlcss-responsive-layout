@@ -77,6 +77,7 @@ p{
     border-radius: 2rem;
     padding: 10px 20px;
     text-decoration: none;
+    font-size: .9rem;
 }
 
 .btn-light{
@@ -217,6 +218,13 @@ p{
 .mt-lg{margin-top: 2rem;}
 .mt-xl{margin-top: 3.5rem;}
 .mt-xxl{margin-top: 5rem;}
+
+.mr-xs{margin-right: 0.5rem;}
+.mr-sm{margin-right: .8rem;}
+.mr-md{margin-right: 1.5rem;}
+.mr-lg{margin-right: 2rem;}
+.mr-xl{margin-right: 3.5rem;}
+.mr-xxl{margin-right: 5rem;}
 
 .my-xs{margin: 0.5rem 0;}
 .my-sm{margin: .8rem 0;}
