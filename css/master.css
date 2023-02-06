@@ -1,5 +1,10 @@
 /* DEBUG */
 
+.debug *{
+    border: 1px dashed black;
+    
+}
+
 .debug .navbar{background-color: red;}
 .debug .navbar .container{background-color: violet;}
 
@@ -9,7 +14,7 @@
 }
 
 .debug .card{
-    height: 100px;
+    height: 300px;
     background-color: bisque;
 }
 
@@ -18,6 +23,7 @@
 .debug#testimonials{background-color: greenyellow;}
 .debug#benefits{background-color: salmon;}
 .debug#about-us{background-color: darkkhaki;}
+.debug#get-started{background-color: lightgreen;}
 
 /* END DEBUG */
 
@@ -42,6 +48,11 @@
 
 .container{
     max-width: 600px;
+    margin: auto;
+}
+
+.container-sm{
+    max-width: 740px;
     margin: auto;
 }
 
