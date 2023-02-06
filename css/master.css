@@ -1,0 +1,57 @@
+/* DEBUG */
+
+/* END DEBUG */
+
+*,
+::after,
+::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --color-primary: #0084fd;
+    --color-secondary: #0084fd;
+    --color-violet: #9792e4;
+    --color-dark: #333333;
+}
+
+
+/* LAYOUT */
+
+.justify-start{justify-content: flex-start;}
+.justify-center{justify-content: center;}
+.justify-end{justify-content: flex-end;}
+
+.align-center{}
+
+.row{display: flex;}
+
+.col-12{width: 100%;}
+.col-11{width: calc((100% / 12) * 11);}
+.col-10{width: calc((100% / 12) * 11);}
+.col-9{width: calc((100% / 12) * 11);}
+.col-8{width: calc((100% / 12) * 11);}
+.col-7{width: calc((100% / 12) * 11);}
+.col-6{width: 50%;}
+.col-5{width: calc((100% / 12) * 5);}
+.col-4{width: calc((100% / 12) * 4);}
+.col-3{width: calc((100% / 12) * 3);}
+.col-2{width: calc((100% / 12) * 2);}
+.col-1{width: calc(100% / 12);}
+
+
+
+@media screen and (min-width: 768px) {
+    
+}
+
+@media screen and (min-width: 992px) {
+    
+}
+
+@media screen and (min-width: 1200px) {
+    
+}
