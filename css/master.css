@@ -9,7 +9,6 @@
 .debug .navbar .container{background-color: violet;}
 
 .debug .section-heading{
-    height: 50px;
     background-color: firebrick;
 }
 
@@ -56,6 +55,14 @@
     margin: auto;
 }
 
+.gridfix-xs{margin: 0 -0.5rem 0 -0.5rem;}
+.gridfix-sm{margin: 0 -.8rem 0 -.8rem;}
+.gridfix-md{margin: 0 -1.5rem 0 -1.5rem;}
+.gridfix-lg{margin: 0 -2rem 0 -2rem;}
+.gridfix-xl{margin: 0 -3.5rem 0 -3.5rem;}
+.gridfix-xxl{margin: 0 -5rem 0 -5rem;}
+
+
 .justify-start{justify-content: flex-start;}
 .justify-center{justify-content: center;}
 .justify-end{justify-content: flex-end;}
@@ -84,21 +91,21 @@
 /* Padding */
 
 .p-xs{padding: 0.5rem;}
-.p-sm{padding: 1rem;}
+.p-sm{padding: .8rem;}
 .p-md{padding: 1.5rem;}
 .p-lg{padding: 2rem;}
 .p-xl{padding: 3.5rem;}
 .p-xxl{padding: 5rem;}
 
 .py-xs{padding: 0.5rem 0;}
-.py-sm{padding: 1rem 0;}
+.py-sm{padding: .8rem 0;}
 .py-md{padding: 1.5rem 0;}
 .py-lg{padding: 2rem 0;}
 .py-xl{padding: 3.5rem 0;}
 .py-xxl{padding: 5rem 0;}
 
 .px-xs{padding: 0 0.5rem;}
-.px-sm{padding: 0 1rem;}
+.px-sm{padding: 0 .8rem;}
 .px-md{padding: 0 1.5rem;}
 .px-lg{padding: 0 2rem;}
 .px-xl{padding: 0 3.5rem;}
@@ -108,14 +115,14 @@
 /* Margin */
 
 .my-xs{margin: 0.5rem 0;}
-.my-sm{margin: 1rem 0;}
+.my-sm{margin: .8rem 0;}
 .my-md{margin: 1.5rem 0;}
 .my-lg{margin: 2rem 0;}
 .my-xl{margin: 3.5rem 0;}
 .my-xxl{margin: 5rem 0;}
 
 .mx-xs{margin: 0 0.5rem;}
-.mx-sm{margin: 0 1rem;}
+.mx-sm{margin: 0 .8rem;}
 .mx-md{margin: 0 1.5rem;}
 .mx-lg{margin: 0 2rem;}
 .mx-xl{margin: 0 3.5rem;}
@@ -140,6 +147,11 @@
 .navbar .container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.collapse{
+    display: none;
 }
 
 
@@ -206,6 +218,26 @@
     
     .container{
         max-width: 960px;
+    }
+
+    .collapse{
+        display: block;
+    }
+
+    .navbar .nav-toggle{
+        display: none;
+    }
+
+    .navbar .navbar-nav ul{
+        list-style-type: none;
+    }
+
+    .navbar .navbar-nav li{
+        display: inline-block;
+    }
+
+    .navbar .navbar-nav li a{
+        text-decoration: none;
     }
 }
 
