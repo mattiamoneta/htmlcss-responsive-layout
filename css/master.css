@@ -131,9 +131,9 @@
 
 /* Borders */
 
-.border-radius-lg{border-radius: 2rem;}
-.border-radius-md{border-radius: 1.5rem;}
-.border-radius-sm{border-radius: 1rem;}
+.radius-lg{border-radius: 2rem;}
+.radius-md{border-radius: 1.5rem;}
+.radius-sm{border-radius: 1rem;}
 
 
 
