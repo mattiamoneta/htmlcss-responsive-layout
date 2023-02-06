@@ -1,14 +1,20 @@
 /* DEBUG */
 
-.navbar{background-color: red;}
-.navbar .container{background-color: violet;}
+.debug .navbar{background-color: red;}
+.debug .navbar .container{background-color: violet;}
 
-.card{
+.debug .section-heading{
+    height: 50px;
+    background-color: firebrick;
+}
+
+.debug .card{
     height: 100px;
     background-color: bisque;
 }
 
-#hero-section{background-color: aqua;}
+.debug#hero-section{background-color: aqua;}
+.debug#planning{background-color: darkorange;}
 
 /* END DEBUG */
 
@@ -42,6 +48,8 @@
 
 .align-center{align-items: center;}
 
+.d-flex{display: flex;}
+
 .row{display: block;}
 
 .row-wrap{flex-wrap: wrap;}
@@ -60,6 +68,13 @@
 .col-md-1{width: calc(100% / 12);}
 
 /* Padding */
+
+.p-xs{padding: 0.5rem;}
+.p-sm{padding: 1rem;}
+.p-md{padding: 1.5rem;}
+.p-lg{padding: 2rem;}
+.p-xl{padding: 3.5rem;}
+.p-xxl{padding: 5rem;}
 
 .py-xs{padding: 0.5rem 0;}
 .py-sm{padding: 1rem 0;}
@@ -116,11 +131,32 @@
 
 /* Hero Section */
 
+/* Planning */
+
+/* Testimonials */
 
 
 
 
 /* RESPONSIVE */
+
+@media screen and (max-width: 768px) {
+
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12{
+        width: 100%;
+    }
+}
 
 @media screen and (min-width: 768px) {
    
