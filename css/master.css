@@ -102,6 +102,11 @@ section{scroll-margin-top: 80px;}
     font-size: 1rem;
 }
 
+.btn.btn-sm{
+    padding: 2px 15px;
+    font-size: .8rem;
+}
+
 .btn.btn-light{
     background-color: white;
     color: black;
@@ -182,6 +187,7 @@ section{scroll-margin-top: 80px;}
 .gridfix-xxl{margin: 0 -5rem 0 -5rem;}
 
 
+.justify-between{justify-content: space-around;}
 .justify-start{justify-content: flex-start;}
 .justify-center{justify-content: center;}
 .justify-end{justify-content: flex-end;}
@@ -380,6 +386,25 @@ section{scroll-margin-top: 80px;}
 
 /* Testimonials */
 
+/* About-Us */
+
+#about-img-wrapper{
+    position: relative;
+    display: inline-block;
+}
+
+#about-img-wrapper::after{
+    position: absolute;
+    font: var(--fa-font-solid);
+    content: '\f10e';
+    font-size: 3rem;
+    top: 0;
+    right: 0px;
+    color: var(--color-violet);
+}
+
+
+
 /* Card */
 
 .card-counter{
@@ -421,6 +446,9 @@ section{scroll-margin-top: 80px;}
     .col-sm-3{width: calc((100% / 12) * 3);}
     .col-sm-2{width: calc((100% / 12) * 2);}
     .col-sm-1{width: calc(100% / 12);}
+
+
+    .text-center-sm{text-align: center;}
 
 }
 
