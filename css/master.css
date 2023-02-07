@@ -114,7 +114,7 @@ section{scroll-margin-top: 80px;}
 
 .btn.btn-violet{
     background-color: var(--color-violet);
-    color: black;
+    color: white;
 }
 
 
@@ -310,7 +310,7 @@ section{scroll-margin-top: 80px;}
 
 /* Borders */
 
-.radius-lg{border-radius: 2rem;}
+.radius-lg{border-radius: 3rem;}
 .radius-md{border-radius: 1.5rem;}
 .radius-sm{border-radius: 1rem;}
 
@@ -325,6 +325,8 @@ section{scroll-margin-top: 80px;}
 .font-bold{font-weight: bold;}
 .font-italic{font-style: italic;}
 .font-uppercase{text-transform: uppercase;}
+
+.letter-spacing-2x{letter-spacing: 2px;}
 
 
 /* 
@@ -378,7 +380,12 @@ section{scroll-margin-top: 80px;}
 
 /* Testimonials */
 
+/* Card */
 
+.card-counter{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
 
 
 /* 
