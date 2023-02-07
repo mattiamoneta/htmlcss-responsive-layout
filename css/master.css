@@ -68,6 +68,7 @@ section{scroll-margin-top: 80px;}
     padding: 10px 20px;
     text-decoration: none;
     font-size: .9rem;
+    transition: all .3s ease;
 }
 
 .btn.btn-rounded{
@@ -89,27 +90,50 @@ section{scroll-margin-top: 80px;}
     font-size: .8rem;
 }
 
+
 .btn.btn-light{
     background-color: white;
     color: black;
+    border: 1px solid white;
+}
+
+.btn.btn-light:hover{
+    background-color: transparent;
+    color: white;
 }
 
 .btn.btn-light-violet{
     background-color: white;
     color: var(--color-violet);
+    border: 1px solid white;
+}
+
+.btn.btn-light-violet:hover{
+    background-color: transparent;
+    color: white;
 }
 
 .btn.btn-primary{
     background-color: var(--color-primary);
+    border: 1px solid var(--color-primary);
     color: white;
+}
+
+.btn.btn-primary:hover{
+    background-color: transparent;
+    color: var(--color-primary);
 }
 
 .btn.btn-violet{
     background-color: var(--color-violet);
     color: white;
+    border: 1px solid var(--color-violet);
 }
 
-
+.btn.btn-violet:hover{
+    background-color: transparent;
+    color: var(--color-violet);
+}
 
 /* ICONS */
 
@@ -288,6 +312,13 @@ section{scroll-margin-top: 80px;}
 .mr-xl{margin-right: 3.5rem;}
 .mr-xxl{margin-right: 5rem;}
 
+.ml-xs{margin-left: 0.5rem;}
+.ml-sm{margin-left: .8rem;}
+.ml-md{margin-left: 1.5rem;}
+.ml-lg{margin-left: 2rem;}
+.ml-xl{margin-left: 3.5rem;}
+.ml-xxl{margin-left: 5rem;}
+
 .my-xs{margin: 0.5rem 0;}
 .my-sm{margin: .8rem 0;}
 .my-md{margin: 1.5rem 0;}
@@ -339,10 +370,11 @@ section{scroll-margin-top: 80px;}
 
 .navbar{
     position: fixed;
-    z-index: 999;
+    z-index: 990;
     width: 100%;
     height: 70px;
 }
+
 
 .nav-logo img{
     height: 50px;
@@ -448,6 +480,7 @@ section{scroll-margin-top: 80px;}
 }
 
 
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     
     .col-md-12{width: 100%;}
@@ -488,6 +521,7 @@ section{scroll-margin-top: 80px;}
         text-align: left;
     }
 
+    .px-md-0{padding: 0 0;}
     .px-md-xs{padding: 0 0.5rem;}
     .px-md-sm{padding: 0 .8rem;}
     .px-md-md{padding: 0 1.5rem;}
@@ -528,10 +562,17 @@ section{scroll-margin-top: 80px;}
     }
 
     .navbar .navbar-nav li a.nav-link{
+        position: relative;
         text-decoration: none;
         padding: 3px 15px;
         font-size: .9rem;
     }
+
+    .navbar .navbar-nav li a.nav-link:hover{
+        text-decoration: underline;
+    }
+    
+
 
     #phone{
         width: 40%;
@@ -548,6 +589,7 @@ section{scroll-margin-top: 80px;}
     .mw-lg-20{max-width: 20%;}
     .mw-lg-10{max-width: 10%;}
 
+    .px-lg-0{padding: 0 0;}
     .px-lg-xs{padding: 0 0.5rem;}
     .px-lg-sm{padding: 0 .8rem;}
     .px-lg-md{padding: 0 1.5rem;}
