@@ -10,7 +10,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -34,7 +34,7 @@
                         <nav class="navbar-nav">
                             <ul>
                                 <li><a href="#" class="text-light nav-link">Planning</a></li>
-                                <li><a href="#" class="text-light nav-link">Testimonials</a></li>
+                                <li><a href="#testimonials" class="text-light nav-link">Testimonials</a></li>
                                 <li><a href="#" class="text-light nav-link">Features</a></li>
                                 <li><a href="#" class="text-light nav-link">About Us</a></li>
                                 <li><a href="#" class="btn btn-light">Get Started</a></li>
@@ -60,9 +60,8 @@
                                 <p class="py-md font-bold text-grey">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia tempore, dolorem quis quos odio quaerat sapiente in veniam autem vel.</p>
                                 <a href="#" class="btn btn-primary font-bold"><i class="fa-brands fa-apple mr-xs"></i> App Store</a>
                             </div>
-                            <div class="col-6 text-center h-100 position-relative">
-                                <img src="./img/phone.png" alt="Phone" class="mw-60" id="phone">
-                            </div>
+                            
+                            <img src="./img/phone.png" alt="Phone" class="w-60 col-6 align-self-end" id="phone">
                         </div>
                     </div>
 
@@ -106,20 +105,26 @@
          <!-- 
             PLANNING
           -->
-          <section id="planning" class="debug py-lg">
+          <section id="planning" class="py-xl bg-violet">
             <div class="container">
                 <div class="row justify-center">
-                    <div class="col-5">
-                        <div>IMMAGINE</div>
-                        <h2>Lorem Ipsum</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laudantium et nemo voluptate blanditiis odio veritatis soluta, quos minus nulla?</p>
+                    <div class="col-6 px-lg-xl px-md-xl text-light">
+                        <img src="./img/planning1.png" alt="" class="mw-100 mw-lg-70 mx-auto py-xl">
+                        <h2 class="py-lg">Strategic Planning</h2>
+                        <p>Egestas dui id ornare arcu odio. In tettus
+                            integer feugiat scelerisque varius morbi enim
+                            nunc. Habitasse platea dictumst quisque
+                            sagittis. Interdurn velit euismod in
+                            peltentesque massa placerat duis. Quis
+                            viverra nibh cras pulvinar mattis.</p>
                     </div>
 
-                    <div class="col-4 p-md">
-                        <div class="card p-md radius-md">
-                            <div>IMMAGINE</div>
-                            <h3>Lorem Ipsum</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, corrupti.</p>
+                    <div class="col-4 d-flex">
+                        <div class="card p-md radius-md bg-white text-center align-self-end">
+                            <img src="./img/planning2.png" alt="" class="mw-60 py-sm">
+                            <h3>App Development</h3>
+                            <p class="font-italic py-md">Develop an on-demand app for your delivery business to reach your targeted customers without any</p>
+                            <a href="#" class="btn btn-violet btn-rounded"><i class="fa-solid fa-chevron-down"></i></a>
                         </div>
                     </div>
                 </div>
@@ -130,40 +135,42 @@
         <!-- 
             TESTIMONIALS
          -->
-         <section id="testimonials" class="debug py-lg">
+         <section id="testimonials" class="py-lg">
             <div class="container">
                 
-                <div class="section-heading text-center">
-                    <h1>Lorem Ipsum</h1>
+                <div class="section-heading text-center mb-xl">
+                    <span class="name font-uppercase">testimonials</span>
+                    <h1 class="py-sm text-violet">We committed expert partners</h1>
+                    <p>We place huge value on strong relationships and have seen the benefit they bring to Our business. Customer feedback is Vital in helping us to get it right.</p>
                 </div>
 
-                <div class="card row my-sm p-sm align-center radius-sm">
-                    <div class="col-4 p-sm">
-                        IMMAGINE
+                <div class="card row my-md p-sm align-center radius-lg bg-violet text-center">
+                    <div class="col-sm-12 p-sm h-100">
+                        <img src="./img/testimonial1.jpg" alt="" class="img-rounded-lg">
                     </div>
-                    <div class="col-8 p-sm">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, unde. Quaerat obcaecati ipsa id corporis excepturi iste quia sequi doloribus.</p>
-                        <span>AUTHOR</span>
-                    </div>
-                </div>
-
-                <div class="card row my-sm p-sm align-center radius-sm">
-                    <div class="col-4 p-sm">
-                        IMMAGINE
-                    </div>
-                    <div class="col-8 p-sm">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, unde. Quaerat obcaecati ipsa id corporis excepturi iste quia sequi doloribus.</p>
-                        <span>AUTHOR</span>
+                    <div class="col-8 p-sm h-100 text-light">
+                        <p class="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, unde. Quaerat obcaecati ipsa id corporis excepturi iste quia sequi doloribus.</p>
+                        <div class="font-bold py-md">NAT REYNOLDS</div>
                     </div>
                 </div>
 
-                <div class="card row my-sm p-sm align-center radius-sm">
-                    <div class="col-4 p-sm">
-                        IMMAGINE
+                <div class="card row my-md p-sm align-center radius-lg bg-violet text-center">
+                    <div class="col-sm-12 p-sm h-100">
+                        <img src="./img/testimonial2.jpg" alt="" class="img-rounded-lg">
                     </div>
-                    <div class="col-8 p-sm">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, unde. Quaerat obcaecati ipsa id corporis excepturi iste quia sequi doloribus.</p>
-                        <span>AUTHOR</span>
+                    <div class="col-8 p-sm h-100 text-light">
+                        <p class="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, unde. Quaerat obcaecati ipsa id corporis excepturi iste quia sequi doloribus.</p>
+                        <div class="font-bold py-md">NAT REYNOLDS</div>
+                    </div>
+                </div>
+
+                <div class="card row my-md p-sm align-center radius-lg bg-violet text-center">
+                    <div class="col-sm-12 p-sm h-100">
+                        <img src="./img/testimonial3.jpg" alt="" class="img-rounded-lg">
+                    </div>
+                    <div class="col-8 p-sm h-100 text-light">
+                        <p class="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, unde. Quaerat obcaecati ipsa id corporis excepturi iste quia sequi doloribus.</p>
+                        <div class="font-bold py-md">NAT REYNOLDS</div>
                     </div>
                 </div>
 
