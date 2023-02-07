@@ -1,31 +1,3 @@
-/* DEBUG */
-
-.debug *{
-    border: 1px dashed black;
-    
-}
-
-.debug .navbar{background-color: red;}
-.debug .navbar .container{background-color: violet;}
-
-.debug .section-heading{
-    background-color: firebrick;
-}
-
-.debug .card{
-    height: 300px;
-    background-color: bisque;
-}
-
-.debug#hero-section{background-color: aqua;}
-.debug#planning{background-color: darkorange;}
-.debug#testimonials{background-color: greenyellow;}
-.debug#benefits{background-color: salmon;}
-.debug#about-us{background-color: darkkhaki;}
-.debug#get-started{background-color: lightgreen;}
-
-/* END DEBUG */
-
 
 /* DEFAULTS */
 
@@ -44,6 +16,7 @@
     --color-violet: #9792e4;
     --color-dark: #333333;
     --color-grey: #607688;
+    --color-yellow: #fdc15f;
 
 }
 
@@ -77,6 +50,7 @@ section{scroll-margin-top: 80px;}
 .text-violet{color: var(--color-violet);}
 .text-light{color: white;}
 .text-grey{color: var(--color-grey);}
+.text-yellow{color: var(--color-yellow);}
 
 /* CONTROLS */
 
@@ -334,6 +308,8 @@ section{scroll-margin-top: 80px;}
 
 .letter-spacing-2x{letter-spacing: 2px;}
 
+.title-lg{font-size: 4rem;}
+
 
 /* 
     PAGE CSS
@@ -450,6 +426,9 @@ section{scroll-margin-top: 80px;}
 
     .text-center-sm{text-align: center;}
 
+
+
+
 }
 
 
@@ -499,6 +478,13 @@ section{scroll-margin-top: 80px;}
     .px-md-lg{padding: 0 2rem;}
     .px-md-xl{padding: 0 3.5rem;}
     .px-md-xxl{padding: 0 5rem;}
+
+    .py-md-xs{padding: 0.5rem 0;}
+    .py-md-sm{padding: .8rem 0;}
+    .py-md-md{padding: 1.5rem 0;}
+    .py-md-lg{padding: 2rem 0;}
+    .py-md-xl{padding: 3.5rem 0;}
+    .py-md-xxl{padding: 5rem 0;}
 
 
 }
